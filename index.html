@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Code Quiz - Javascript</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--favicon-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon1.png"
+    />
+  </head>
+  <body>
+    <!--Header with high scores and timer-->
+    <header class="header" id="header">
+      <div>
+        <a class="leftHeader">View High Scores</a>
+      </div>
+      <div class="rightHeader">
+        <a>Time Remaining ⏳:<span ID="countDown">180 seconds</span></a>
+      </div>
+    </header>
+   
+    <main>
+      <!-- startPage -->
+      <section class="titleIntro">
+        <!--Title Block, present on all papges-->
+        <div id="titleBlock">
+          Code Quiz Challenge
+        </div>
+        <!--subtitle area -->
+        <div id="introSummary" class="summary">
+          Try to answer the following code-related questions within the time
+          limit. Keep in mind the incorrect answers will penalize your
+          score/time by ten seconds!
+        </div>
+      </section>
+      <!-- start quiz button -->
+      <section class="startButtonsArea" class="buttons">
+        <button id="startQuiz" class="purplePinkBtn">Start Quiz</button>
+      </section>
+
+      <!-- answers area with radio button -->
+      <section class="answerArea">
+        <article class="answers">
+          <h3 class="purplePink" id="answer1"></h3>
+          <input
+            type="radio" class="radios" id="answer1Select" name="answerSelect"/>
+        </article>
+        <article class="answers">
+          <h3 class="purplePink" id="answer2"></h3>
+          <input
+            type="radio" class="radios" id="answer2Select" name="answerSelect"/>
+        </article>
+        <article class="answers">
+          <h3 class="purplePink" id="answer3"></h3>
+          <input
+            type="radio" class="radios" id="answer3Select" name="answerSelect"/>
+        </article>
+        <article class="answers">
+          <h3 class="purplePink" id="answer4"></h3>
+          <input
+            type="radio" class="radios" id="answer4Select" name="answerSelect"/>
+        </article>
+        <!-- submit button  -->
+        <div class="submitBtn" class="buttons">
+          <button id="submitBtn" class="purplePinkBtn">Submit</button>
+        </div>
+        <!--footer displays right or wrong answers -->
+      </section>
+
+
+      <!------------ results page ------------------>
+      <section class="endArea">
+          <!-- user initials section placed in local storage -->
+        <div class="initialsArea">
+          <form class="initials">
+            <label for="initialsEntry">Intials: </label>
+            <input
+              id="initials"
+              type="text"
+              name="initialsEntry"
+              placeholder="Enter Your Initials Here"
+            />
+          </form>
+        </div>
+        <!-- users score -->
+        <div id="endSummary" class="summary">
+          <div id="scoreTitle" id="endScore">Your Score is</div>
+        </div>
+        <!-- submit to local storage -->
+        <div class="submitScoreBtnArea" class="buttons">
+          <button id="submitScoreBtn" class="purplePinkBtn">
+            Score Submit
+          </button>
+        </div>
+      </section>
+
+      <!----------- high scores page ------------------>
+      <section class="highScoresPage">
+          <!-- current players score -->
+        <article class="scores scoreYours" id="scoreYours">
+          <h3 id="scoreYours"></h3>
+        </article>
+        <!-- display local storage scores  -->
+        <article class="scores" class="scoresAdd">
+          <ul class="highScoresList">
+            <!-- local storage list created in js: <li>score 1</li> -->
+          </ul>
+        </article>
+        <!-- return button -->
+        <div class="goBackArea buttons">
+          <button
+            class="purplePinkBtn"
+            class="goBack"
+            id="goBack"
+            class="purplePinkBtn"
+          >
+            Go Back
+          </button>
+        </div>
+        <!-- clear the local storage button -->
+        <div class="clearBtn">
+          <button class="purplePinkBtn" class="clearScores" id="clearScores">
+            Clear High Scores
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- wrong answers displayed in footer -->
+    <footer>
+      <h4 id="wrongAnswer"></h4>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
