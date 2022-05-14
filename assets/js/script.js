@@ -1,4 +1,4 @@
-//--------Section variables-----------//
+//-------- variables-----------//
 
 var highScoreLink = document.querySelector(".leftHeader");
 var TimerArea = document.querySelector(".rightHeader");
@@ -51,44 +51,14 @@ var timeInterval;
 //-----------quiz questions array------------//
 const myQuestions = [
   {
-    question: "Who invented JavaScript?",
+    question: "How can you add a comment in a JavaScript?",
     answers: {
-      a: "Douglas Crockford",
-      b: "Sheryl Sandberg",
-      c: "Brendan Eich",
-      d: "none of the above",
+      a: "<!--This is a comment-->",
+      b: "'This is a comment'",
+      c: "//This is a comment",
+      d: "append.note: This is a comment",
     },
     correctAnswer: "C",
-  },
-  {
-    question: "Which one of these is a JavaScript package manager?",
-    answers: {
-      a: "Node.js",
-      b: "TypeScript",
-      c: "npm",
-      d: "none of the above",
-    },
-    correctAnswer: "C",
-  },
-  {
-    question: "Inside which HTML element do we put the JavaScript?",
-    answers: {
-      a: "<js>",
-      b: "<javascript>",
-      c: "<script>",
-      d: "<scripting>",
-    },
-    correctAnswer: "C",
-  },
-  {
-    question: "What is the correct JavaScript syntax to change the content of the HTML element below? <p id='demo'>This is a demonstration.</p>",
-    answers: {
-      a: "demo.innerHTML = 'Hello World!'",
-      b: "document.getElementByName('p').innerHTML = 'Hello World!'",
-      c: "document.getElement('p').innerHTML = 'Hello World!'",
-      d: "document.getElementById('demo').innerHTML = 'Hello World!'",
-    },
-    correctAnswer: "D",
   },
   {
     question: "How do you create a function in JavaScript?",
@@ -101,14 +71,14 @@ const myQuestions = [
     correctAnswer: "A",
   },
   {
-    question: "How to write an IF statement in JavaScript?",
+    question: "Inside which HTML element do we put the JavaScript?",
     answers: {
-      a: "if i == 5 then",
-      b: "if (i ==5){}",
-      c: "i i=5 then()",
-      d: "none of the above",
+      a: "<js>",
+      b: "<javascript>",
+      c: "<script>",
+      d: "<scripting>",
     },
-    correctAnswer: "B",
+    correctAnswer: "C",
   },
   {
     question: "Where is the correct place to insert a JavaScript?",
@@ -121,12 +91,52 @@ const myQuestions = [
     correctAnswer: "A",
   },
   {
-    question: "How can you add a comment in a JavaScript?",
+    question: "Which one of these is a JavaScript package manager?",
     answers: {
-      a: "<!--This is a comment-->",
-      b: "'This is a comment'",
-      c: "//This is a comment",
-      d: "append.note: This is a comment",
+      a: "Node.js",
+      b: "TypeScript",
+      c: "npm",
+      d: "none of the above",
+    },
+    correctAnswer: "C",
+  },
+  {
+    question: "Which of these is accurate of FOR LOOP statements?",
+    answers: {
+      a: "for (loop time, array length, action to var)",
+      b: "for (starting point, loop until, action to var)",
+      c: "for (action to var, starting point, loop time)",
+      d: "for (array start, array end, action to array",
+    },
+    correctAnswer: "B",
+  },
+  {
+    question: "What is the correct JavaScript syntax to change the content of the HTML element below? <p id='demo'>This is a demonstration.</p>",
+    answers: {
+      a: "demo.innerHTML = 'Hello World!'",
+      b: "document.getElementByName('p').innerHTML = 'Hello World!'",
+      c: "document.getElement('p').innerHTML = 'Hello World!'",
+      d: "document.getElementById('demo').innerHTML = 'Hello World!'",
+    },
+    correctAnswer: "D",
+  },
+  {
+    question: "How to write an IF statement in JavaScript?",
+    answers: {
+      a: "if i == 5 then",
+      b: "if (i ==5){}",
+      c: "i i=5 then()",
+      d: "none of the above",
+    },
+    correctAnswer: "B",
+  },
+  {
+    question: "Who invented JavaScript?",
+    answers: {
+      a: "Douglas Crockford",
+      b: "Sheryl Sandberg",
+      c: "Brendan Eich",
+      d: "none of the above",
     },
     correctAnswer: "C",
   },
@@ -137,16 +147,6 @@ const myQuestions = [
       b: "No; They must be called later in the script file",
       c: "Yes; They will run as long as they are capitalized",
       d: "No; They must be called in HTML",
-    },
-    correctAnswer: "B",
-  },
-  {
-    question: "Which of these is accurate of FOR LOOP statements?",
-    answers: {
-      a: "for (loop time, array length, action to var)",
-      b: "for (starting point, loop until, action to var)",
-      c: "for (action to var, starting point, loop time)",
-      d: "for (array start, array end, action to array",
     },
     correctAnswer: "B",
   },

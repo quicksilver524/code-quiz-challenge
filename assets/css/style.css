@@ -197,6 +197,26 @@ footer {
   font-size: 30px;
   color: grey;
 }
+#scoreTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.highScoresList {
+  width: 90vw;
+  margin-left: 20vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.highScoresPage {
+  width: 90vw;
+  margin: 0 20vw 0 20vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
@@ -239,27 +259,3 @@ footer {
     display: block;
   }
 }
-#scoreTitle {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.highScoresList {
-  width: 90vw;
-  margin-left: 20vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.highScoresPage {
-  width: 90vw;
-  margin: 0 20vw 0 20vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
-/* @media screen and (max-width: 550px) {
-} */
