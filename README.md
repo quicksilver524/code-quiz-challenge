@@ -13,4 +13,6 @@ Github repo source [https://github.com/quicksilver524/code-quiz-challenge]
     The Code quiz is fully functional and will show multiple highscores as you repeatedly take the quiz. 
     No high scores are posted if no quizes have ever been performed.
 
-Code Quiz Webpage:  ![Picture of webpage 1](.assets/images/ss1.png)
+Code Quiz Webpage:  ![Picture of webpage 1](./assets/images/ss1.png)
+Code Quiz Webpage:  ![Picture of webpage 2](./assets/images/ss2.png)
+Code Quiz Webpage:  ![Picture of webpage 3](./assets/images/ss3.png)
