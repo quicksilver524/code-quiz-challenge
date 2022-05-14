@@ -14,5 +14,3 @@ Github repo source [https://github.com/quicksilver524/code-quiz-challenge]
     No high scores are posted if no quizes have ever been performed.
 
 Code Quiz Webpage:  ![Picture of webpage 1](.assets/images/ss1.png)
-Code Quiz Webpage:  ![Picture of webpage 2](.assets/images/ss2.png)
-Code Quiz Webpage:  ![Picture of webpage 3](.assets/images/ss3.png)
