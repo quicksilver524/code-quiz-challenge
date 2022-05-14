@@ -1,7 +1,7 @@
                                                # code-quiz-challenge
 
 
-Portfolio Website [https://quicksilver524.github.io/code-quiz-challenge/]
+Code Quiz Website [https://quicksilver524.github.io/code-quiz-challenge/]
 
 Github repo source [https://github.com/quicksilver524/code-quiz-challenge]
 
