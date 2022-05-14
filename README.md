@@ -1,4 +1,4 @@
-                                             # code-quiz-challenge
+                                             code-quiz-challenge
 
 
 Code Quiz Website [https://quicksilver524.github.io/code-quiz-challenge/]
